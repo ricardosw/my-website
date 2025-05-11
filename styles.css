@@ -1,3 +1,6 @@
+body, h1{
+    margin: 0;
+}
 h1, h2{
     color: #000080;
 }
@@ -10,15 +13,55 @@ main {
 ul a {
     text-decoration: none;
 }
-a:hover, a:focus {
+main a:hover, a:focus {
     color: #006400;
-}
-footer {
-    font-style: italic;
 }
 h2 {
     font-style: oblique;
 }
 h1 {
-    text-transform:lowercase
+    text-transform:lowercase;
+    text-align: center;
+
+}
+.page-title {
+    border-bottom: 3px solid #000000;
+    background: linear-gradient(to right, #90ee90, #dda1dd, #add8e6);
+    padding: 15px;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+main img {
+    border: 5px solid lightgray;
+    border-radius: 5px;
+    float: left;
+    max-width: 40%;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+}
+main ul {
+    padding: 0;
+    margin-left: 0;
+}
+main ul li {
+    margin-bottom: 5px;
+}
+main h2#explore-kitsap-title {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+#explore-kitsap-title a {
+    text-decoration: none;
+}
+footer {
+    font-style: italic;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.recent-travels-title {
+    clear: both;
 }

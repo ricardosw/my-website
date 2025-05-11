@@ -1,0 +1,30 @@
+body {
+    width: 964px;
+    margin: 5px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+main h2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: none;
+}
+#column1 {
+    width: 300px;
+    height: 350px;
+    float: left;
+    border-right: 2px solid black;
+    margin-top: 15px;
+}
+#column2 {
+    width: 321px;
+    float: left;
+}
+#column3 {
+    width: 300px;
+    height: 350px;
+    float: right;
+    border-left: 2px solid black;
+}
