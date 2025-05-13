@@ -35,8 +35,8 @@ main img {
     border: 5px solid lightgray;
     border-radius: 5px;
     float: left;
-    max-width: 40%;
-    height: auto;
+    width: 30%;
+    height: 20%;
     margin-right: 20px;
     margin-bottom: 10px;
 
@@ -65,3 +65,26 @@ footer {
 .recent-travels-title {
     clear: both;
 }
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+  }
+  .navbar a:hover {
+    color: #0077cc;
+  }
+  .banner img {
+    width: 100%;
+    height: 450px;
+    display: block;
+  }
