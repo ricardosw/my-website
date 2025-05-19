@@ -1,6 +1,10 @@
 body, h1{
     margin: 0;
 }
+body {
+    color: #333;
+    background-color: #f4f4f4;
+}
 h1, h2{
     color: #000080;
 }
@@ -85,6 +89,6 @@ footer {
   }
   .banner img {
     width: 100%;
-    height: 450px;
+    height: 90%;
     display: block;
   }
